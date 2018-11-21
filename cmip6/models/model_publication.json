@@ -13,7 +13,7 @@
             "publish": "off"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocnbgchem": {
             "publish": "off"
