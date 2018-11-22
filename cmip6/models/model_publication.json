@@ -19,7 +19,7 @@
             "publish": "off"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }
 }
