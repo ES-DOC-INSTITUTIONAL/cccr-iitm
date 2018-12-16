@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": null, 
+    "sourceID": "iitm-esm", 
+    "topic": "atmos", 
+    "content": {
+        "=TRUE()": {
+            "values": [
+                "Berger 1978"
+            ]
+        }, 
+        "=FALSE()": {
+            "values": [
+                "Convectively forced gravity wave drag (CHUN AND BAIK 1998)"
+            ]
+        }
+    }
+}

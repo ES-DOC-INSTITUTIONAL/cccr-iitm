@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": null, 
+    "sourceID": "iitm-esm", 
+    "topic": "ocean", 
+    "content": {
+        "=TRUE()": {
+            "values": [
+                true
+            ]
+        }, 
+        "=FALSE()": {
+            "values": [
+                "No"
+            ]
+        }
+    }
+}

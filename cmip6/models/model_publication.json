@@ -7,19 +7,19 @@
             "publish": "off"
         }, 
         "atmos": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "land": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "ocean": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "ocnbgchem": {
             "publish": "off"
         }, 
         "seaice": {
-            "publish": "on"
+            "publish": "off"
         }
     }
 }

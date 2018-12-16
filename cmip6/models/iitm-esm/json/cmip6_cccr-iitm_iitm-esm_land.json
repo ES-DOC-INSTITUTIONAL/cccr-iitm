@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": null, 
+    "sourceID": "iitm-esm", 
+    "topic": "land", 
+    "content": {
+        "=TRUE()": {
+            "values": [
+                false
+            ]
+        }, 
+        "=FALSE()": {
+            "values": [
+                "No"
+            ]
+        }
+    }
+}

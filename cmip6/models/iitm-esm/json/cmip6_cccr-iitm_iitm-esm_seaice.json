@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": null, 
+    "sourceID": "iitm-esm", 
+    "topic": "seaice", 
+    "content": {
+        "true": {
+            "values": [
+                true
+            ]
+        }, 
+        "false": {
+            "values": [
+                "Show-ice"
+            ]
+        }
+    }
+}
