@@ -22,7 +22,7 @@
         }, 
         "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "AGCM"
+                "AGCM: Atmospheric General Circulation Model"
             ]
         }, 
         "cmip6.atmos.key_properties.basic_approximations": {
@@ -209,12 +209,12 @@
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_liquid.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_inhomogeneity.cloud_inhomogeneity": {
             "values": [
-                "Monte Carlo Independent Column Approximation"
+                "Monte Carlo Independent Column Approximation: McICA"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_aerosols.physical_representation": {
@@ -225,7 +225,7 @@
         }, 
         "cmip6.atmos.radiation.shortwave_aerosols.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_radiation.name": {
@@ -256,22 +256,22 @@
         }, 
         "cmip6.atmos.radiation.longwave_GHG.greenhouse_gas_complexity": {
             "values": [
-                "N2O", 
-                "CO2", 
-                "CH4", 
+                "N2O: Nitrous Oxide", 
+                "CO2: Carbon Dioxide", 
+                "CH4: Methane", 
                 "H2O", 
                 "O3", 
-                "Explicit ODSs"
+                "Explicit ODSs: Explicit representation of Ozone Depleting Substances e.g. CFCs, HCFCs and Halons"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_GHG.ODS": {
             "values": [
-                "CFC-11", 
-                "CFC-12", 
-                "CFC-113", 
-                "CFC-114", 
-                "CFC-115", 
-                "HCFC-22", 
+                "CFC-11: CFC", 
+                "CFC-12: CFC", 
+                "CFC-113: CFC", 
+                "CFC-114: CFC", 
+                "CFC-115: CFC", 
+                "HCFC-22: HCFC", 
                 "Carbon tetrachloride"
             ]
         }, 
@@ -289,12 +289,12 @@
         }, 
         "cmip6.atmos.radiation.longwave_cloud_liquid.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_cloud_inhomogeneity.cloud_inhomogeneity": {
             "values": [
-                "Monte Carlo Independent Column Approximation"
+                "Monte Carlo Independent Column Approximation: McICA"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
@@ -505,7 +505,7 @@
         }, 
         "cmip6.atmos.natural_forcing.solar_pathways.pathways": {
             "values": [
-                "SW radiation"
+                "SW radiation: Shortwave solar spectral irradiance."
             ]
         }, 
         "cmip6.atmos.natural_forcing.solar_constant.type": {
