@@ -77,9 +77,20 @@
                 "4 layers"
             ]
         }, 
+        "cmip6.land.soil.overview": {
+            "values": [
+                "9 types of Soil similar to Noah LSM"
+            ]
+        }, 
         "cmip6.land.soil.number_of_soil layers": {
             "values": [
                 4
+            ]
+        }, 
+        "cmip6.land.soil.prognostic_variables": {
+            "values": [
+                "Soil Moisture", 
+                "Soil water content"
             ]
         }, 
         "cmip6.land.soil.soil_map.description": {
@@ -120,6 +131,11 @@
         "cmip6.land.soil.hydrology.time_step": {
             "values": [
                 600
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.vertical_discretisation": {
+            "values": [
+                "Finite Difference"
             ]
         }, 
         "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
@@ -187,6 +203,11 @@
                 "Fractional snow coverage depends on vegetation type and Snow Water Equivalent."
             ]
         }, 
+        "cmip6.land.snow.tiling": {
+            "values": [
+                "No"
+            ]
+        }, 
         "cmip6.land.snow.number_of_snow_layers": {
             "values": [
                 1
@@ -237,6 +258,11 @@
                 "Prescribed"
             ]
         }, 
+        "cmip6.land.vegetation.overview": {
+            "values": [
+                "Prescribed vegetation based on Hurtt etal ., 2015"
+            ]
+        }, 
         "cmip6.land.vegetation.time_step": {
             "values": [
                 600
@@ -245,6 +271,11 @@
         "cmip6.land.vegetation.dynamic_vegetation": {
             "values": [
                 false
+            ]
+        }, 
+        "cmip6.land.vegetation.tiling": {
+            "values": [
+                "No"
             ]
         }, 
         "cmip6.land.vegetation.vegetation_representation": {
@@ -321,19 +352,9 @@
                 "N/A"
             ]
         }, 
-        "cmip6.land.carbon_cycle.litter.number_of_carbon_pools": {
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
             "values": [
-                0
-            ]
-        }, 
-        "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
-            "values": [
-                0
-            ]
-        }, 
-        "cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included": {
-            "values": [
-                false
+                "Other: N/A"
             ]
         }, 
         "cmip6.land.nitrogen_cycle.time_step": {
@@ -353,12 +374,17 @@
         }, 
         "cmip6.land.river_routing.grid_inherited_from_land_surface": {
             "values": [
-                1
+                true
             ]
         }, 
         "cmip6.land.river_routing.number_of_reservoirs": {
             "values": [
                 1
+            ]
+        }, 
+        "cmip6.land.river_routing.water_re_evaporation": {
+            "values": [
+                "Other: N/A"
             ]
         }, 
         "cmip6.land.river_routing.basin_flow_direction_map": {
@@ -374,6 +400,11 @@
         "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
             "values": [
                 "Direct (large rivers)"
+            ]
+        }, 
+        "cmip6.land.lakes.overview": {
+            "values": [
+                "Lakes are treated the same as ocean points in terms of SST and the extent of ice coverage."
             ]
         }, 
         "cmip6.land.lakes.coupling_with_rivers": {
