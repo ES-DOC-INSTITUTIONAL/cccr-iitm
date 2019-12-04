@@ -1,0 +1,91 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "iitm-esm", 
+    "topic": "seaice", 
+    "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "Sea Ice Simulator (SIS)"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "Sea ice thickness", 
+                "Sea ice u-velocity", 
+                "Sea ice v-velocity"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: Tfreeze=-0.054*salinity"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "Z*-coordinate"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid": {
+            "values": [
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Other: Tripolar grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.thermodynamics_time_step": {
+            "values": [
+                7200
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.dynamics_time_step": {
+            "values": [
+                7200
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.vertical.number_of_layers": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.has_mulitple_categories": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.number_of_categories": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.ice_thickness_distribution": {
+            "values": [
+                "Multi-levels; Winton 2000 Scheme"
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.has_snow_on_ice": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.number_of_snow_levels": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.seaice.dynamics.redistribution": {
+            "values": [
+                "Other: Ice Strength Formulation: GFDL SIS"
+            ]
+        }
+    }
+}
