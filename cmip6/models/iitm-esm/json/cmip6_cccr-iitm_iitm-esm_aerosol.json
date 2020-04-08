@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "cccr-iitm", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "iitm-esm", 
+    "topic": "aerosol", 
+    "content": {}
+}
