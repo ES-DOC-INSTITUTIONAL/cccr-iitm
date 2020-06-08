@@ -5,33 +5,6 @@
     "sourceID": "iitm-esm", 
     "topic": "seaice", 
     "content": {
-        "cmip6.seaice.key_properties.name": {
-            "values": [
-                "Sea Ice Simulator (SIS)"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.variables.prognostic": {
-            "values": [
-                "Sea ice thickness", 
-                "Sea ice u-velocity", 
-                "Sea ice v-velocity"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
-            "values": [
-                "Other: Tfreeze=-0.054*salinity"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.resolution.name": {
-            "values": [
-                "Z*-coordinate"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.conservation.was_flux_correction_used": {
-            "values": [
-                false
-            ]
-        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
                 "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
@@ -80,11 +53,6 @@
         "cmip6.seaice.grid.snow_on_seaice.number_of_snow_levels": {
             "values": [
                 1
-            ]
-        }, 
-        "cmip6.seaice.dynamics.redistribution": {
-            "values": [
-                "Other: Ice Strength Formulation: GFDL SIS"
             ]
         }
     }
